@@ -42,12 +42,12 @@ perl -pi -e "s|Encoding=UTF-8||"  plasma-applet-cwp.desktop
 
 %files -f plasma_applet_cwp.lang
 %doc COPYING ChangeLog README
-%dir %{_kde4_appsdir}/desktoptheme
-%dir %{_kde4_appsdir}/desktoptheme/default
-%dir %{_kde4_appsdir}/desktoptheme/default/widgets
-%{_kde4_appsdir}/desktoptheme/default/widgets/*.svgz
-%{_kde4_appsdir}/plasma-cwp/
-%{_kde4_iconsdir}/oxygen/128x128/status/weather-windy.png
-%{_kde4_iconsdir}/oxygen/scalable/status/weather-windy.svgz
-%{_kde4_modulesdir}/plasma_applet_cwp.so
-%{_kde4_servicesdir}/plasma-applet-cwp.desktop
+%dir %{_kde_appsdir}/desktoptheme
+%dir %{_kde_appsdir}/desktoptheme/default
+%dir %{_kde_appsdir}/desktoptheme/default/widgets
+%{_kde_appsdir}/desktoptheme/default/widgets/*.svgz
+%{_kde_appsdir}/plasma-cwp/
+%{_kde_iconsdir}/oxygen/128x128/status/weather-windy.png
+%{_kde_iconsdir}/oxygen/scalable/status/weather-windy.svgz
+%{_kde_modulesdir}/plasma_applet_cwp.so
+%{_kde_servicesdir}/plasma-applet-cwp.desktop
