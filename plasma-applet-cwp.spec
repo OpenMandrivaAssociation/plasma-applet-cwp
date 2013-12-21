@@ -49,5 +49,5 @@ perl -pi -e "s|Encoding=UTF-8||"  plasma-applet-cwp.desktop
 %{_kde_appsdir}/plasma-cwp/
 %{_kde_iconsdir}/oxygen/128x128/status/weather-windy.png
 %{_kde_iconsdir}/oxygen/scalable/status/weather-windy.svgz
-%{_kde_modulesdir}/plasma_applet_cwp.so
-%{_kde_servicesdir}/plasma-applet-cwp.desktop
+%{_kde_libdir}/plasma_applet_cwp.so
+%{_kde_services}/plasma-applet-cwp.desktop
