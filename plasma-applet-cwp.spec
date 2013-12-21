@@ -30,6 +30,8 @@ For now, xml files for the weather providers
 %setup -qn %{oname}-%{version}
 # deprecated
 perl -pi -e "s|Encoding=UTF-8||"  plasma-applet-cwp.desktop
+# fix attr
+chmod 644 COPYING plasma-cwp.cpp plasma-cwp.h
 
 %build
 %cmake_kde4
