@@ -1,16 +1,14 @@
 %define oname	cwp
 Summary:        Yet another weather plasmoid highly customizable this time
 Name:           plasma-applet-cwp
-Version:        1.9.0
+Version:        1.9.1
 Release:        1
 Source0:        http://kde-look.org/CONTENT/content-files/98925-%{oname}-%{version}.tar.bz2
 License:        GPLv3+
 Group:          Graphical desktop/KDE
 URL:            http://kde-look.org/content/show.php/Customizable+Weather+Plasmoid+(CWP)?content=98925
 BuildRequires:  kdebase4-workspace-devel
-#BuildRequires:  desktop-file-utils
 Provides:       plasma-applet-customizable-weather
-# follow the haders version fom the build
 Requires:       kdebase4-workspace >= 4.11.4
 
 %description
