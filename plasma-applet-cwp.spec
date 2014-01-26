@@ -1,7 +1,7 @@
 %define oname	cwp
 Summary:        Yet another weather plasmoid highly customizable this time
 Name:           plasma-applet-cwp
-Version:        1.9.1
+Version:        1.10.0
 Release:        1
 Source0:        http://kde-look.org/CONTENT/content-files/98925-%{oname}-%{version}.tar.bz2
 License:        GPLv3+
