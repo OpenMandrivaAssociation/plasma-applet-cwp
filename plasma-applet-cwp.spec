@@ -49,5 +49,5 @@ chmod 644 COPYING plasma-cwp.cpp plasma-cwp.h
 %{_kde_appsdir}/plasma-cwp/
 %{_kde_iconsdir}/oxygen/128x128/status/weather-windy.png
 %{_kde_iconsdir}/oxygen/scalable/status/weather-windy.svgz
-%{_kde_libdir}/kde4/plasma_applet_cwp.so
+%{_libdir}/kde4/plasma_applet_cwp.so
 %{_kde_services}/plasma-applet-cwp.desktop
