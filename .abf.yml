@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   98925-cwp-1.9.0.tar.bz2: e11cf17e4d801964318f96f6752e719a1974815b
+sources:
+  98925-cwp-1.11.1.tar.bz2: c5d8af85e09c14d58d9e6123fd61eca2ebe7e7e7
