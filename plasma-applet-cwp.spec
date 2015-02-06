@@ -4,7 +4,7 @@
 Summary:        Yet another weather plasmoid highly customizable this time
 Name:           plasma-applet-cwp
 Version:        1.11.1
-Release:        1
+Release:        2
 Source0:        http://kde-look.org/CONTENT/content-files/%{kdeappsrel}-%{oname}-%{version}.tar.bz2
 License:        GPLv3+
 Group:          Graphical desktop/KDE
