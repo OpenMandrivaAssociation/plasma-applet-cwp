@@ -8,7 +8,7 @@ Release:        2
 Source0:        http://kde-look.org/CONTENT/content-files/%{kdeappsrel}-%{oname}-%{version}.tar.bz2
 License:        GPLv3+
 Group:          Graphical desktop/KDE
-URL:            http://kde-look.org/content/show.php/Customizable+Weather+Plasmoid+(CWP)?content=%{kdeappsrel}
+URL:            https://kde-look.org/content/show.php/Customizable+Weather+Plasmoid+(CWP)?content=%{kdeappsrel}
 BuildRequires:  kdebase4-workspace-devel
 BuildRequires:  desktop-file-utils
 Provides:       plasma-applet-customizable-weather
